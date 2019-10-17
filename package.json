@@ -5,14 +5,25 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "server": "node server/index.js"
   },
   "dependencies": {
     "axios": "^0.19.0",
     "core-js": "^3.1.2",
+    "highlight-words-core": "^1.2.2",
+    "koa": "^2.10.0",
+    "koa-body": "^4.1.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
     "muse-ui": "^3.0.2",
+    "muse-ui-toast": "^0.3.0",
+    "utility": "^1.16.1",
     "vue": "^2.6.10",
-    "vue-axios": "^2.1.5"
+    "vue-axios": "^2.1.5",
+    "vue-baidu-map": "^0.21.22"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",

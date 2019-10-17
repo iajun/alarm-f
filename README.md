@@ -1,24 +1,24 @@
-# alarm-f
+# 生产环境
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
 ```
 yarn build
 ```
 
-### Lints and fixes files
 ```
-yarn lint
+yarn server
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+访问 http://localhost:3001
+
+# 开发环境
+
+
+```
+yarn build
+```
+
+```
+yarn server
+```
+
+访问 http://localhost:8080
