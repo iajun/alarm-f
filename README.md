@@ -39,7 +39,7 @@ yarn server
 | 文件      | 描述                               |
 | --------- | ---------------------------------- |
 | upload    | wav 音频文件存放目录, 16000 采样率 |
-| config.js | 百度 API 配置                      |
+| config.js | API 配置                           |
 | index.js  | 后端 koa 入口文件                  |
 | router.js | 后端 API 接口编写文件              |
 
