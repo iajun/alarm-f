@@ -13,8 +13,9 @@ import BaiduMap from "vue-baidu-map";
 import theme from "muse-ui/lib/theme";
 theme.use("dark");
 
-axios.defaults.baseURL = "/api";
+const isPro = process.env.NODE_ENV === "production";
 
+axios.defaults.baseURL = isPro ? "/" : "/api";
 axios.interceptors.response.use(res => res.data);
 
 Vue.use(MuseUI);

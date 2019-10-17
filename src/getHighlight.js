@@ -1,5 +1,5 @@
 import { findAll } from "highlight-words-core";
-const searchWords = ["救命", "救救我", "北京"];
+const searchWords = ["救命", "救救我"];
 
 const getHighLight = textToHighlight => {
   const chunks = findAll({
