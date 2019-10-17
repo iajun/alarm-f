@@ -34,15 +34,6 @@ yarn server
 | vue.config.js      | 配置前端开发环境的跨域代理 |
 | public/ index.html | 前端 index.html            |
 
-## server 服务端文件夹描述
-
-| 文件      | 描述                               |
-| --------- | ---------------------------------- |
-| upload/   | wav 音频文件存放目录, 16000 采样率 |
-| config.js | API 配置                           |
-| index.js  | 后端 koa 入口文件                  |
-| router.js | 后端 API 接口编写文件              |
-
 ## src 前端文件夹描述
 
 | 文件            | 描述                 |
@@ -51,3 +42,12 @@ yarn server
 | App.vue         | App.vue 前端主页面   |
 | getHighlight.js | 根据关键词得到高亮   |
 | main.js         | 前端入口文件         |
+
+## server 服务端文件夹描述
+
+| 文件      | 描述                               |
+| --------- | ---------------------------------- |
+| upload/   | wav 音频文件存放目录, 16000 采样率 |
+| config.js | API 配置                           |
+| index.js  | 后端 koa 入口文件                  |
+| router.js | 后端 API 接口编写文件              |
